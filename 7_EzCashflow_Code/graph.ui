@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignUp</class>
+ <widget class="QMainWindow" name="SignUp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>699</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sign Up</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(248, 237, 215);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="graph" name="graph" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>661</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="graphselector">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(234, 234, 234);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Income</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Expenditure</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Balance</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="monthselectorlbl">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>711</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255,182,46);
+color: rgb(255, 255, 255);
+background-color: rgb(42, 198, 220);</string>
+    </property>
+    <property name="text">
+     <string>  Select Graph</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-110</x>
+      <y>-20</y>
+      <width>1241</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1241</width>
+      <height>641</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1241</width>
+      <height>641</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image : url(img/white-paper-texture.jpg)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Users/asus/Downloads/white-paper-texture.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>graph</zorder>
+   <zorder>graphselector</zorder>
+   <zorder>monthselectorlbl</zorder>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>graph</class>
+   <extends>QWidget</extends>
+   <header location="global">graph.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

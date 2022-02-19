@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignUp</class>
+ <widget class="QMainWindow" name="SignUp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>660</width>
+    <height>684</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>660</width>
+    <height>684</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>660</width>
+    <height>684</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Sign Up</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(248, 237, 215);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="welcomelabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>411</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255,182,46);
+color: rgb(255, 255, 255);
+background-color: rgb(42, 198, 220);</string>
+    </property>
+    <property name="text">
+     <string>Welcome Back User!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelun">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>290</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+background-color: rgb(223, 223, 223);</string>
+    </property>
+    <property name="text">
+     <string>Financial Statement</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="transbtn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>150</y>
+      <width>121</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0,255,0);
+background-color: rgb(51, 196, 180);
+</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+Transactions</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="balancelabel">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>50</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255,182,46);
+color: rgb(255, 255, 255);
+background-color: rgb(42, 198, 220);</string>
+    </property>
+    <property name="text">
+     <string>Your Balance</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="balancemoney">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>80</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255,182,46);
+color: rgb(255, 255, 255);
+background-color: rgb(42, 198, 220);</string>
+    </property>
+    <property name="text">
+     <string>Rp. 1000000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelun_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>350</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+background-color: rgb(223, 223, 223);</string>
+    </property>
+    <property name="text">
+     <string>Income            :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelun_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>390</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+background-color: rgb(223, 223, 223);</string>
+    </property>
+    <property name="text">
+     <string>Expenditure    :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelun_4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>430</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+background-color: rgb(223, 223, 223);</string>
+    </property>
+    <property name="text">
+     <string>Profit               :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="incomelbl">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>350</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : green;
+background-color:white;
+background-color: rgb(223, 223, 223);</string>
+    </property>
+    <property name="text">
+     <string>Rp 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="profitlbl">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>430</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:green;
+background-color:white;
+background-color: rgb(223, 223, 223);</string>
+    </property>
+    <property name="text">
+     <string>Rp 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="explbl">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>390</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color : red;
+background-color:white;
+background-color: rgb(223, 223, 223);</string>
+    </property>
+    <property name="text">
+     <string>Rp 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="graphlabel_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>270</y>
+      <width>441</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Gagalin</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+background-color: rgb(223, 223, 223);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="graphlabel_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>661</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Gagalin</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255,182,46);
+background-color: rgb(42, 198, 220);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="graphlabel_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>170</y>
+      <width>751</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Gagalin</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(218,224,218);
+background-image : url(img/white-paper-texture.jpg)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Users/asus/Downloads/white-paper-texture.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="graphlabel_5">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>140</y>
+      <width>441</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Gagalin</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+background-color: rgb(66, 76, 88);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="finstatbtn3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>470</y>
+      <width>441</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(163,200,214);
+background-color: rgb(42, 198, 220);
+</string>
+    </property>
+    <property name="text">
+     <string>More Details  &gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelun_8">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>160</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(0,255,0);
+background-color: rgb(51, 196, 180);
+background-image : url(img/transactions.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="finstatbtn">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>150</y>
+      <width>121</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0,255,0);
+background-color: rgb(51, 196, 180);
+</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+Financial
+Analysis</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelun_9">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>160</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(0,255,0);
+background-image : url(img/final.png);
+background-color: rgb(51, 196, 180);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="graphlabel_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>570</y>
+      <width>661</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Gagalin</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(200,224,218);
+background-color: rgb(66, 76, 88);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelun_10">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>580</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(200,224,218);
+background-image : url(img/homefilled.png);
+background-color: rgb(51, 196, 180);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelun_12">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>585</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(200,224,218);
+background-image : url(img/addnotfilled.png)
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="homebtn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>569</y>
+      <width>110</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(200,224,218);
+color: rgb(66, 76, 88);
+background-color: rgb(51, 196, 180);</string>
+    </property>
+    <property name="text">
+     <string>
+
+Home</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="transbtn2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>569</y>
+      <width>151</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(200,224,218);
+color: rgb(66, 76, 88);</string>
+    </property>
+    <property name="text">
+     <string>
+
+Add Transactions</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="finstatbtn2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>569</y>
+      <width>110</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(200,224,218);
+color: rgb(66, 76, 88);</string>
+    </property>
+    <property name="text">
+     <string>
+
+Statements</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelun_13">
+    <property name="geometry">
+     <rect>
+      <x>505</x>
+      <y>585</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Champagne &amp; Limousines</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(200,224,218);
+background-image : url(img/notes.png)
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>graphlabel_4</zorder>
+   <zorder>graphlabel_6</zorder>
+   <zorder>transbtn2</zorder>
+   <zorder>graphlabel_3</zorder>
+   <zorder>graphlabel_5</zorder>
+   <zorder>graphlabel_2</zorder>
+   <zorder>welcomelabel</zorder>
+   <zorder>labelun</zorder>
+   <zorder>transbtn</zorder>
+   <zorder>balancelabel</zorder>
+   <zorder>balancemoney</zorder>
+   <zorder>labelun_2</zorder>
+   <zorder>labelun_3</zorder>
+   <zorder>labelun_4</zorder>
+   <zorder>incomelbl</zorder>
+   <zorder>profitlbl</zorder>
+   <zorder>explbl</zorder>
+   <zorder>finstatbtn3</zorder>
+   <zorder>labelun_8</zorder>
+   <zorder>finstatbtn</zorder>
+   <zorder>labelun_9</zorder>
+   <zorder>homebtn</zorder>
+   <zorder>labelun_10</zorder>
+   <zorder>labelun_12</zorder>
+   <zorder>finstatbtn2</zorder>
+   <zorder>labelun_13</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
